@@ -11,10 +11,10 @@ then
         echo "Firefox: Not implemented yet"
 elif [  $1 = "-s" ] # Safari
 then
-        echo "Safari: Not implemented yet"
+        echo "Safari: Not implemented yet (Never ?)"
 elif [  $1 = "-o" ] # Opera
 then
-        echo "Opera: Not implemented yet"
+        browser_folder = ~/.cache/opera/Cache
 elif [  $1 = "-b" ] # Brave
 then
         echo "Brave: Not implemented yet"
